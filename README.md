@@ -25,14 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+.forEach acts as a for loop would and goes through the information once and may change the original array over time. .map goes through the array and copies a new array with only that one item you selected.
 
 2. Explain the difference between a callback and a higher order function.
 
+HOF is the function reciving the cb as a parameter. CB is a function that can be used as a parameter or an argument inside of another function
+
+
 3. What is closure?
+
+A form of nesting for functions.
 
 4. Describe the four rules of the 'this' keyword.
 
+its a placeholder pronoun for the object left of the dot.
+
 5. Why do we need super() in an extended class?
+
+super allows us to add new keys to the child without interfering with the parent.
 
 ### Task 1 - Project Set up
 
