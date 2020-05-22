@@ -23,22 +23,15 @@ myFunction();
 
 /* Create a function called `sumation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
-function one (){
-function two (){
-function three (){
-    function sumation (a){
-     
-     return  a + num1 + num2 + num3
-     
-  }
- const num2=2
-  
- }
- const num3 = 3
- 
- }
- const num1 = 1
- 
 
-}
-console.log(sumation(4));
+function sumation(a){
+  function adder(){
+    let num1=1;
+    let num2=2;
+    let num3=3;
+    return  a+num1+num2+num3
+  }
+  return adder ();
+  }
+
+console.log(sumation(4))
